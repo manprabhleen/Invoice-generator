@@ -62,7 +62,7 @@ const InvoiceDetailsPage = () => {
       </div>
 
       {/* TempInvoiceDetailsOutput Start */}
-      <div className="card w-auto my-8 bg-neutral">
+      {/*<div className="card w-auto my-8 bg-neutral">
         <TempInvoiceDetailsOutput
           invoiceInfoHeaderData={invoiceInfoHeader}
           invoiceItemsTableData={rowItemData}
